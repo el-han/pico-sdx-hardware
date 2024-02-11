@@ -494,14 +494,6 @@
     [
       "4dfd2ef6-9f39-4a4f-8fa0-bbfe53f86be0",
       "upconverter"
-    ],
-    [
-      "fe40c8b5-6f23-4222-9161-75c8185869d6",
-      "Power supply"
-    ],
-    [
-      "0baa3e0d-69bf-46c9-aaa2-cc9844b7fd13",
-      "Oscillator"
     ]
   ],
   "text_variables": {}
