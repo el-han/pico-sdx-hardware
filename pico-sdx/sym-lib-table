@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "pico-sdx")(type "KiCad")(uri "${KIPRJMOD}/pico-sdx.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/MCU_Module_RaspberryPi_Pico.kicad_sym")(options "")(descr ""))
+  (lib (name "pmod")(type "Legacy")(uri "/home/helling/repos/kicad-pmod/pmod.lib")(options "")(descr ""))
 )

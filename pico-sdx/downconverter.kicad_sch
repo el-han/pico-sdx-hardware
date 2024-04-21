@@ -2032,6 +2032,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5VA"
 			(power)
 			(pin_numbers hide)
@@ -2132,126 +2252,6 @@
 				)
 			)
 			(symbol "+5VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5VD"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3799,7 +3799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
+		(lib_id "power:+3.3V")
 		(at 93.98 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3817,7 +3817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3.3V"
 			(at 93.98 125.73 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
+		(lib_id "power:+3.3V")
 		(at 218.44 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4600,7 +4600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3.3V"
 			(at 218.44 121.92 0)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 218.44 127 0)
 			(effects
 				(font
@@ -5266,7 +5266,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
+		(lib_id "power:+3.3V")
 		(at 66.04 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5284,7 +5284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3.3V"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 66.04 130.81 0)
 			(effects
 				(font
@@ -6240,7 +6240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
+		(lib_id "power:+3.3V")
 		(at 181.61 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6258,7 +6258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3.3V"
 			(at 181.61 124.46 0)
 			(effects
 				(font
@@ -6284,7 +6284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 181.61 129.54 0)
 			(effects
 				(font
@@ -7342,7 +7342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
+		(lib_id "power:+3.3V")
 		(at 66.04 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7360,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3.3V"
 			(at 66.04 151.13 0)
 			(effects
 				(font
@@ -7386,7 +7386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 66.04 146.05 0)
 			(effects
 				(font
@@ -7408,7 +7408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
+		(lib_id "power:+3.3V")
 		(at 93.98 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7426,7 +7426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3.3V"
 			(at 93.98 151.13 0)
 			(effects
 				(font
@@ -7452,7 +7452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 93.98 146.05 0)
 			(effects
 				(font

@@ -3,4 +3,5 @@
   (lib (name "pico-sdx")(type "KiCad")(uri "${KIPRJMOD}/pico-sdx.pretty")(options "")(descr ""))
   (lib (name "Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/Module_RaspberryPi_Pico.pretty")(options "")(descr ""))
   (lib (name "PA")(type "KiCad")(uri "${KIPRJMOD}/PA.pretty")(options "")(descr ""))
+  (lib (name "pmod-conn_6x2")(type "KiCad")(uri "/home/helling/repos/kicad-pmod/pmod-conn_6x2.pretty")(options "")(descr ""))
 )
