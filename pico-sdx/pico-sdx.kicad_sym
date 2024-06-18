@@ -609,7 +609,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U17"
+		(property "Reference" "U"
 			(at -1.6159 -24.13 0)
 			(effects
 				(font
@@ -776,6 +776,24 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -15.24 5.08 0)
 				(length 2.54)
@@ -931,24 +949,6 @@
 					)
 				)
 				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -15.24 -5.08 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)

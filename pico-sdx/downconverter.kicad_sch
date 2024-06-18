@@ -2388,12 +2388,6 @@
 		(uuid "084a3aa8-eb6d-49a0-85b6-03c0600c1197")
 	)
 	(junction
-		(at 101.6 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08957961-0bac-4c36-81ec-f469ba5cb795")
-	)
-	(junction
 		(at 135.89 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2554,6 +2548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7c79605-df2f-4e38-8cfa-fb12fcc77ea3")
+	)
+	(junction
+		(at 101.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eece39ed-bc69-41a8-a7e6-0302052bcbdb")
 	)
 	(junction
 		(at 243.84 77.47)
@@ -4716,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC74")
-		(at 93.98 138.43 0)
+		(at 66.04 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4725,7 +4725,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ed8010a-7e56-4c42-9ba5-65e9c3fdfe4f")
 		(property "Reference" "U6"
-			(at 96.1741 128.27 0)
+			(at 68.2341 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4734,7 @@
 			)
 		)
 		(property "Value" "74HC74"
-			(at 96.1741 130.81 0)
+			(at 68.2341 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 93.98 138.43 0)
+			(at 66.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 93.98 138.43 0)
+			(at 66.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4761,7 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
-			(at 93.98 138.43 0)
+			(at 66.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC74")
-		(at 66.04 138.43 0)
+		(at 93.98 138.43 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5035,7 +5035,7 @@
 		(fields_autoplaced yes)
 		(uuid "60e0e329-94f6-4607-92d9-8a875aff1ece")
 		(property "Reference" "U6"
-			(at 68.2341 128.27 0)
+			(at 96.1741 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5044,7 @@
 			)
 		)
 		(property "Value" "74HC74"
-			(at 68.2341 130.81 0)
+			(at 96.1741 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 66.04 138.43 0)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5062,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 66.04 138.43 0)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5071,7 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
-			(at 66.04 138.43 0)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
