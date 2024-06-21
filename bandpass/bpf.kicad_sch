@@ -1,0 +1,5877 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9ee16c4c-c038-4528-8d59-7c5032541d75")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay:G6K-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "G6K-2"
+				(at 16.51 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Miniature 2-pole relay, Single-side Stable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G6K-2_0_0"
+				(text "+"
+					(at -9.271 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "G6K-2_0_1"
+				(rectangle
+					(start -15.24 5.08)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -13.335 1.905)
+					(end -6.985 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -1.905) (xy -7.62 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "G6K-2_1_1"
+				(pin passive line
+					(at -10.16 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pico-sdx:Filter_Module"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Filter Module"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pico-sdx:Filter Module"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Band Pass Filter kit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SAW Filter 1090 bandpass MP08167"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Filter*SAW*3.8x3.8mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Filter_Module_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -1.27 -1.2755)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid 1.27 -3.8045)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -1.27 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 -1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid -1.27 3.8045)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 1.27 1.2755)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 3.81) hide
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81) hide
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 173.99 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229ecdfb-ab9a-4d4a-94ce-64a98b40f0ad")
+	)
+	(junction
+		(at 119.38 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3992aa99-cc7d-4da0-b620-6cdc7a9fbf84")
+	)
+	(junction
+		(at 64.77 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4793f366-452c-47f1-833e-3563bfaf3e8f")
+	)
+	(junction
+		(at 64.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58027234-c58a-4371-99eb-dc2923d626d2")
+	)
+	(junction
+		(at 173.99 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77f9c36d-844c-4903-be31-6e6ba6c23611")
+	)
+	(junction
+		(at 245.11 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd6c3cad-b9d2-4087-b8ef-0c974a297e12")
+	)
+	(junction
+		(at 119.38 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa93cc72-4cf4-4898-87f2-68e78df70419")
+	)
+	(no_connect
+		(at 111.76 39.37)
+		(uuid "009e73c7-e037-4bbc-beec-58210687d09c")
+	)
+	(no_connect
+		(at 46.99 107.95)
+		(uuid "10bfd511-0484-4798-adfa-1ce7cabbb076")
+	)
+	(no_connect
+		(at 111.76 107.95)
+		(uuid "129203c2-92bf-4e5f-a971-851087f6285f")
+	)
+	(no_connect
+		(at 57.15 39.37)
+		(uuid "297a467f-afbe-4696-9b6d-575e62cadc2b")
+	)
+	(no_connect
+		(at 101.6 39.37)
+		(uuid "36a01a6d-5132-4386-9b49-18aa675547e2")
+	)
+	(no_connect
+		(at 156.21 39.37)
+		(uuid "3f515da4-86e6-4eb0-b2be-6c268e185c57")
+	)
+	(no_connect
+		(at 156.21 107.95)
+		(uuid "6410adfe-4101-42fe-bdfb-33b980bfc8c3")
+	)
+	(no_connect
+		(at 166.37 107.95)
+		(uuid "69a2c178-df32-4490-831d-3e5a449f70fe")
+	)
+	(no_connect
+		(at 46.99 39.37)
+		(uuid "c3c5c653-db9b-476f-b026-1977e4ef340a")
+	)
+	(no_connect
+		(at 57.15 107.95)
+		(uuid "dcd782ea-5cf7-45d4-a0a9-d0f7a474468a")
+	)
+	(no_connect
+		(at 101.6 107.95)
+		(uuid "e6b34dcd-c1ac-4aa2-b6c9-6926c53309e4")
+	)
+	(no_connect
+		(at 166.37 39.37)
+		(uuid "f9dc9217-7438-4dcb-9142-8e8e75b96f2b")
+	)
+	(wire
+		(pts
+			(xy 245.11 54.61) (xy 257.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020bbe44-ec8e-4b37-b9bd-c48701fe18e1")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f11504-d7ed-41d4-8715-8f2f66a48ae0")
+	)
+	(wire
+		(pts
+			(xy 77.47 123.19) (xy 64.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a04f741-ce6f-4cbc-8caa-0ad5ba4199dd")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db7633b-cf0e-4aeb-ad09-f321f42b6473")
+	)
+	(wire
+		(pts
+			(xy 186.69 50.8) (xy 186.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108c2a98-c999-4abd-b41c-636da451bc55")
+	)
+	(wire
+		(pts
+			(xy 234.95 60.96) (xy 240.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c837be-9a55-4fd5-b8d0-3a4bbc2eb36c")
+	)
+	(wire
+		(pts
+			(xy 132.08 39.37) (xy 119.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1503c633-e273-472c-a3e5-dc1c822b5bfd")
+	)
+	(wire
+		(pts
+			(xy 240.03 60.96) (xy 240.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be3a578-120d-4926-ba3b-98c641fc1b5b")
+	)
+	(wire
+		(pts
+			(xy 186.69 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee1f23e-c2ce-413a-97dc-831897c4b23b")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dea27c-4f09-435e-bf8f-ba2f34c42e2c")
+	)
+	(wire
+		(pts
+			(xy 148.59 129.54) (xy 148.59 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2612219b-1a07-41ac-a497-44d9fe695096")
+	)
+	(wire
+		(pts
+			(xy 257.81 50.8) (xy 257.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7270d1-deda-4e8e-88ed-e8881befca21")
+	)
+	(wire
+		(pts
+			(xy 257.81 39.37) (xy 245.11 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1032bf-8c06-4133-8325-8f63f18c8e07")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d643d1e-97b3-488d-ad13-53c1297177ac")
+	)
+	(wire
+		(pts
+			(xy 257.81 43.18) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e24abd4-448a-406a-8f92-0f27e10d3f06")
+	)
+	(wire
+		(pts
+			(xy 109.22 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32213c0f-884f-4876-8a35-17141936664e")
+	)
+	(wire
+		(pts
+			(xy 77.47 119.38) (xy 77.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361fadf5-1d8c-4b8e-9252-360b7f4417f6")
+	)
+	(wire
+		(pts
+			(xy 54.61 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375c91a8-3961-49fa-bbc0-e9a67d7a0b8f")
+	)
+	(wire
+		(pts
+			(xy 132.08 43.18) (xy 132.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382156d9-3b10-4aee-8bcd-d85ab6b2ff89")
+	)
+	(wire
+		(pts
+			(xy 186.69 54.61) (xy 173.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39123d31-015d-4bba-ad01-c534459f117f")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 93.98 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a78b9c1-7d43-4d96-a7c0-f8d068a07712")
+	)
+	(wire
+		(pts
+			(xy 44.45 54.61) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd5d21c-80c7-479f-84a1-419f124aaab0")
+	)
+	(wire
+		(pts
+			(xy 44.45 129.54) (xy 39.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8b2156-1eb0-4aab-893f-ba5987f2c4d3")
+	)
+	(wire
+		(pts
+			(xy 59.69 129.54) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424020d7-b12b-425e-b1f4-bbcc881a71bb")
+	)
+	(wire
+		(pts
+			(xy 77.47 50.8) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c2a60d-bec1-4549-9c86-b2676bfb467b")
+	)
+	(wire
+		(pts
+			(xy 186.69 39.37) (xy 173.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f88a4f-fddd-453d-88e3-03f12a0a1293")
+	)
+	(wire
+		(pts
+			(xy 163.83 54.61) (xy 163.83 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6536ce-0bbc-4114-8f9b-14a777d7c92f")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baf5367-717b-410f-9b1c-089934d00ec7")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.96) (xy 39.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578d135c-7e9b-4217-bc29-758c2625d221")
+	)
+	(wire
+		(pts
+			(xy 163.83 123.19) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dce5bd4-06c4-41b7-ae89-2761f89cb9c6")
+	)
+	(wire
+		(pts
+			(xy 186.69 43.18) (xy 186.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8b8b0c-36a4-4f25-8d1b-0cb4f0d77caa")
+	)
+	(wire
+		(pts
+			(xy 153.67 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807a604e-857f-4149-b501-38f35209fbc0")
+	)
+	(wire
+		(pts
+			(xy 163.83 129.54) (xy 168.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e5be6e-ab46-416e-94cc-bc19b1b667ed")
+	)
+	(wire
+		(pts
+			(xy 99.06 123.19) (xy 99.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f156d16-69f1-4c69-8837-3b8535d676dd")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909342b6-e50f-4912-830d-7d3d27bf5c0e")
+	)
+	(wire
+		(pts
+			(xy 39.37 129.54) (xy 39.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91644523-1b96-4405-9a73-c7762c172570")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 148.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1d1fb2-10e3-4714-ac97-3b945aae0091")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 44.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f66f976-87cd-4bf7-8080-1948ded0cd98")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f88f08-f9c2-4223-9cf8-f72c4acc7ab3")
+	)
+	(wire
+		(pts
+			(xy 234.95 54.61) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b53cbe-dbb5-4157-b3af-66a3640cd38b")
+	)
+	(wire
+		(pts
+			(xy 224.79 60.96) (xy 219.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a03058-784b-468c-92c6-3228007f6128")
+	)
+	(wire
+		(pts
+			(xy 54.61 54.61) (xy 54.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d817ac-03e7-4d28-bf1c-4f83b161182d")
+	)
+	(wire
+		(pts
+			(xy 186.69 119.38) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8564ba9-3001-4c4a-818b-839671b9cbfd")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb61c6b2-6ec3-4116-93fa-3af8ab3cd799")
+	)
+	(wire
+		(pts
+			(xy 132.08 119.38) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce0e197-ab84-40b1-950c-16d44e8562ac")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1afd23-32b1-47c9-97be-52cadfcb168c")
+	)
+	(wire
+		(pts
+			(xy 114.3 129.54) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c403e5ef-bd1e-4e42-a33b-a9dfe5716456")
+	)
+	(wire
+		(pts
+			(xy 153.67 123.19) (xy 153.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40a756e-4e79-4253-9dd8-c03ee092d01d")
+	)
+	(wire
+		(pts
+			(xy 168.91 129.54) (xy 168.91 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e451fd-eb17-462b-a7ce-1b7c2f54c544")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c803aab3-4f0f-44b6-a9b7-874c27c34540")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca455c49-9ac0-4041-a30e-4329fbe614b9")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca90c953-d2dc-4372-b337-ee9a71a1dca9")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab33acd-b7ab-4fc6-9be1-b76f7e5c724f")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 64.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb62199-dc7b-47a3-91a4-cd1997b3735d")
+	)
+	(wire
+		(pts
+			(xy 44.45 60.96) (xy 39.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd85d538-80ca-4b92-aff4-787a1e66a9ae")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 186.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb1e8a2-1f28-4884-b5e4-e9c56cedea06")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 132.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05bd1db-f881-41a3-9822-a3e9ed4b295e")
+	)
+	(wire
+		(pts
+			(xy 77.47 43.18) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d157eb16-d8ab-4a16-848e-c50bddf7293c")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4093b2d-fd76-47f9-b290-b5ca5821bf83")
+	)
+	(wire
+		(pts
+			(xy 132.08 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bcf9cd-5ddf-46a8-b1ba-f05f2feb2ce2")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 59.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcec707e-21f4-4c4d-b5f0-5b871c2b5ea0")
+	)
+	(wire
+		(pts
+			(xy 54.61 123.19) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0d1769-ac0d-4220-b867-df512a89c711")
+	)
+	(wire
+		(pts
+			(xy 224.79 54.61) (xy 224.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec0a60f-02db-4e79-9b92-0c425be29e9e")
+	)
+	(wire
+		(pts
+			(xy 163.83 60.96) (xy 168.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e039b64c-4ef2-4809-9b28-d850c2cf2509")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 64.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a7a460-cf89-459c-8716-e56607db10b1")
+	)
+	(wire
+		(pts
+			(xy 153.67 54.61) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65065dd-11db-48a6-85a8-24b3ad38c410")
+	)
+	(wire
+		(pts
+			(xy 186.69 107.95) (xy 173.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f016d0d4-2e5f-4305-b919-83abf4e4c843")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f420c677-e621-429e-85d0-be576e6f8df0")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f555a5ea-0f3d-4ea1-889f-58ff3e24ae1b")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 219.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f820cb75-2f47-4cac-8918-e53b5c22022c")
+	)
+	(hierarchical_label "30 m"
+		(shape input)
+		(at 119.38 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00b9fd36-0ca3-4b10-ad7b-7c19ef88cbcb")
+	)
+	(hierarchical_label "17 m"
+		(shape input)
+		(at 245.11 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01188db3-27ab-4589-9ac3-6773baf549a5")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 52.07 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06c3697d-b909-4c4b-95e9-4b823e30187d")
+	)
+	(hierarchical_label "12 m"
+		(shape input)
+		(at 119.38 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17b1c833-98b8-443f-96af-3e031a29f3d8")
+	)
+	(hierarchical_label "10 m"
+		(shape input)
+		(at 173.99 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29788046-4de9-4907-b7a2-32cf201dff8d")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 161.29 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48eb2d72-a12b-4807-aa62-1ed4b1a6522e")
+	)
+	(hierarchical_label "20 m"
+		(shape input)
+		(at 173.99 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4936d4a1-7403-41bf-96dc-a0f26aff205f")
+	)
+	(hierarchical_label "40 m"
+		(shape input)
+		(at 64.77 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5406db3d-5b59-4f9b-a3bf-e5bc09d0828e")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 41.91 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ef7986d-6548-4123-b628-e46a9318a512")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 151.13 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f67b08f-5917-4561-8fef-aa60535df7b5")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 232.41 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67f06770-6bc3-49a4-8b26-8429e9139fde")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 96.52 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7852add9-0606-4b99-bc74-e34ae4d5a614")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 222.25 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85d1a173-bba1-4ad9-8c30-39b704075b2b")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 52.07 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88be7cbf-0f96-4f35-8e90-3f90044e84ff")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 106.68 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f59c936-9ecc-4f56-827e-af627723eda2")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 96.52 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5c774d7-1aad-4720-8d7b-57b4f2cbdd1c")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 41.91 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6986e7e-7d9e-4498-969c-26fa654a9c14")
+	)
+	(hierarchical_label "15 m"
+		(shape input)
+		(at 64.77 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1d3905a-5585-431a-a0d4-ef69ea17cc05")
+	)
+	(hierarchical_label "RF out"
+		(shape output)
+		(at 151.13 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5871b2a-ce0a-438c-a5ad-d83926a1bcec")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 106.68 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f92e8fcb-b1ca-4623-a92f-def455b96a46")
+	)
+	(hierarchical_label "RF in"
+		(shape input)
+		(at 161.29 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbdb0218-0e2c-4062-b802-133f550bf340")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0567098e-a8a2-4007-9105-58bcac7caf01")
+		(property "Reference" "#PWR013"
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e3e5941-c3a6-4f07-a1b1-ce4350695bc9")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 54.61 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07951520-c7f0-48ed-ab08-e753eb655476")
+		(property "Reference" "K2"
+			(at 38.1 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 38.1 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "25bdebc3-8140-4695-8c9e-68c7b539b72d")
+		)
+		(pin "4"
+			(uuid "e6f1e832-1847-45f5-8948-9ffda82d01d3")
+		)
+		(pin "6"
+			(uuid "f3fec27e-a2bd-4f39-9082-d35950142dd4")
+		)
+		(pin "8"
+			(uuid "c1e4813b-0c21-4c02-aca7-afda842eb6ee")
+		)
+		(pin "7"
+			(uuid "aafedf5b-82e7-4095-a88b-a53573d48b9e")
+		)
+		(pin "3"
+			(uuid "000ca7a4-29ca-4d84-875f-5933656bfa03")
+		)
+		(pin "1"
+			(uuid "889dfda2-f62b-44ec-a2bb-8e6644463a14")
+		)
+		(pin "2"
+			(uuid "3472ddf6-c254-415e-a257-8385868003e8")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09387bcd-8e16-4152-9848-717a92902f02")
+		(property "Reference" "#PWR07"
+			(at 64.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "937d22db-f6e3-477f-becc-784da218d1e6")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 234.95 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09c45377-e7a6-4a50-9c3f-a67fad34c5bc")
+		(property "Reference" "K8"
+			(at 218.44 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 218.44 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "42dd6883-0fec-41f3-8133-8a318a723c39")
+		)
+		(pin "4"
+			(uuid "c65248b8-5910-48a8-a541-e55206c64098")
+		)
+		(pin "6"
+			(uuid "34d8f25e-a10f-46f4-8c2e-eaa1f137da3b")
+		)
+		(pin "8"
+			(uuid "57ba396c-407f-4c69-9e61-78f8e686c008")
+		)
+		(pin "7"
+			(uuid "a77e37d0-c0aa-4d03-a569-ee9194215afd")
+		)
+		(pin "3"
+			(uuid "4cc3f452-ae18-4c71-b026-1ac340eae685")
+		)
+		(pin "1"
+			(uuid "402b88c8-45f3-48af-bd22-2d1ddc1b1c35")
+		)
+		(pin "2"
+			(uuid "e6945ef9-9de9-4e1f-aa80-fec47ac973ec")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a84cee8-c700-400c-a8da-c867dffe41be")
+		(property "Reference" "#PWR034"
+			(at 156.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb114e1b-4b2f-4690-86e4-8492de42559d")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d73375c-7b6e-4d4f-97a4-cca82ae384fa")
+		(property "Reference" "#PWR011"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50db9f1-8b11-4f93-9d75-b82acf8c12e0")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 186.69 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1002a0fa-42d7-4e6d-8171-610a8283a33c")
+		(property "Reference" "D6"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 186.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 186.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28fa6a15-ed8f-47ab-bc6d-d004f14c2aab")
+		)
+		(pin "2"
+			(uuid "66b35774-aa1e-4521-84c2-d60aec84f51d")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 132.08 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10eac609-9906-493b-865f-1ef92f921898")
+		(property "Reference" "D5"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b66ee7-3e66-4001-a3de-a3bebf39989c")
+		)
+		(pin "2"
+			(uuid "9d8672fc-535a-4cb9-a919-a245c163a2d4")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1365c835-2a76-4fae-b098-b6d5d0874cd9")
+		(property "Reference" "#PWR06"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d1172a6-7186-4110-9b7e-ed20a5e501a2")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16237a67-28e9-4b3d-8528-0f0aa57c268f")
+		(property "Reference" "#PWR09"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2001934e-d527-4725-ba2a-a3e047577245")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1775df8f-e28c-46a3-82ff-df6954d4a058")
+		(property "Reference" "#PWR08"
+			(at 44.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a926eee-df28-4d97-9933-c0024bdf7449")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "222f214a-44f0-4a9d-8aca-3ce4db2380e1")
+		(property "Reference" "#PWR021"
+			(at 237.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced4dc1a-b43d-4b5a-a9b0-5e6e320afe97")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 163.83 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2235bcb0-757a-46b6-868c-e6a6301b47c4")
+		(property "Reference" "K6"
+			(at 147.32 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 147.32 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "294301ff-5d20-4c72-b756-e5af59d23466")
+		)
+		(pin "4"
+			(uuid "e507fe63-b5ae-478c-8279-b378460e5c51")
+		)
+		(pin "6"
+			(uuid "0764a387-61bb-4ebe-9e3d-15677a14cbb0")
+		)
+		(pin "8"
+			(uuid "9cab2b51-45ee-4722-b65c-91bac97fd95d")
+		)
+		(pin "7"
+			(uuid "f31a5d69-abbc-48bc-a77a-095aefb8552b")
+		)
+		(pin "3"
+			(uuid "f09cfdbe-cfac-42fb-87bc-13789f57bcf5")
+		)
+		(pin "1"
+			(uuid "cadca551-66ef-404c-a3d6-804d0ce619a0")
+		)
+		(pin "2"
+			(uuid "330d28a9-278d-411a-9f10-a1677534b4f5")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c45bfa3-cddf-4e50-8ee5-df3ac385eea9")
+		(property "Reference" "#PWR024"
+			(at 156.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc945c85-cfda-486a-b64b-e25ad608d0e8")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 186.69 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "380ec983-5930-4411-b28f-a4e4799f609d")
+		(property "Reference" "D7"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a74c7bf-182a-458d-95ed-2221f076481d")
+		)
+		(pin "2"
+			(uuid "662460f3-14ff-4a6e-9dce-9aef7cb81f09")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 109.22 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c33911f-8c96-48cb-b4b0-ebc0cc9463c4")
+		(property "Reference" "K4"
+			(at 92.71 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 92.71 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "611e8a5c-c582-4ca7-b5da-f0c124d12b75")
+		)
+		(pin "4"
+			(uuid "501e8ddb-5d67-42e3-92bc-d22cf0549513")
+		)
+		(pin "6"
+			(uuid "1f7f1e91-c195-44c3-8242-c6076a3c4792")
+		)
+		(pin "8"
+			(uuid "f04c49d8-6bf9-4b09-afad-3aca829bfea0")
+		)
+		(pin "7"
+			(uuid "63299a5e-58d6-4e9f-a485-105b044b6ca9")
+		)
+		(pin "3"
+			(uuid "49ead46d-7fda-454d-8cfb-3e80b4032816")
+		)
+		(pin "1"
+			(uuid "a0a06f53-07bd-4acb-a136-b913f8840f50")
+		)
+		(pin "2"
+			(uuid "7e17e0c1-fc8a-4e4b-a70e-31050d9f3ec4")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6d8654-e126-4002-b469-a40e6841eb40")
+		(property "Reference" "#PWR032"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f42b7eb-4e3f-4f83-9ae2-434d3f68a592")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 109.22 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4235f477-1cfa-4092-8bb0-560f63710268")
+		(property "Reference" "K5"
+			(at 92.71 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 92.71 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "adc08509-1aee-45a8-85c1-9898bcf85f1d")
+		)
+		(pin "4"
+			(uuid "973d83c3-2c5c-4d93-95ab-83aba7c30ef7")
+		)
+		(pin "6"
+			(uuid "f54380a2-a5f1-4286-bdfd-0665c5cd6253")
+		)
+		(pin "8"
+			(uuid "19729033-cb89-429c-af1a-8150d32974cf")
+		)
+		(pin "7"
+			(uuid "8925ee6f-0235-44cc-bd0d-57b7a24e7b79")
+		)
+		(pin "3"
+			(uuid "c2769142-eccf-4818-a104-af8e5be72cf7")
+		)
+		(pin "1"
+			(uuid "484f974c-308a-4409-933d-e61719556fa0")
+		)
+		(pin "2"
+			(uuid "fd1d5083-2df1-455c-aeca-6ec6db40402a")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 158.75 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e916ba5-e29b-40e7-805c-3b8d42c8a42d")
+		(property "Reference" "X6"
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 m"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 158.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0c8e30b9-7153-4f8b-97e1-669fad3b9ff5")
+		)
+		(pin "6"
+			(uuid "440045b5-146a-4ad8-a601-050fda2dc413")
+		)
+		(pin "5"
+			(uuid "a4624e86-6f5f-4b22-8894-218cc58cb1d0")
+		)
+		(pin "1"
+			(uuid "2e2959b6-8fef-4f75-b7c1-a0e73e2748b1")
+		)
+		(pin "2"
+			(uuid "df513e7d-c295-48fa-a40f-4336d381750d")
+		)
+		(pin "4"
+			(uuid "45799216-4f74-4e1d-afd8-75af98e7921e")
+		)
+		(pin "7"
+			(uuid "65afe8f3-6786-42a7-98ec-de62d2bed713")
+		)
+		(pin "8"
+			(uuid "2fd2faed-a1b5-4c78-9d3b-b9daaccffafb")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51bf70f2-91f9-4681-8217-64feebdf9ac9")
+		(property "Reference" "#PWR015"
+			(at 173.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22519552-52dc-4046-bfaf-30f235aacca6")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5930f43f-3bc3-48b3-a124-cb39729ecd39")
+		(property "Reference" "#PWR017"
+			(at 153.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3967d897-385a-4bff-8efc-ac09c4e7feee")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c1ad726-ebc3-4c04-9252-7aa9b6a161ff")
+		(property "Reference" "#PWR016"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b2e434-6b0c-4237-9986-22b024553c90")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fdc5a36-cf88-44f0-a466-26cf4fe06c17")
+		(property "Reference" "#PWR026"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46d556df-a3ad-45d5-a0e9-a01ca7ef3bea")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 49.53 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be474a8-d89e-49c0-aff2-6b8e61e2d17f")
+		(property "Reference" "X1"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40 m"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ed736d6b-5355-4dd7-a056-23608308951f")
+		)
+		(pin "6"
+			(uuid "5ba1ed41-4df3-4311-9371-ef60ad7303cf")
+		)
+		(pin "5"
+			(uuid "ac771dc2-da0c-4e1f-afcb-32cee63df212")
+		)
+		(pin "1"
+			(uuid "bcb569d2-4127-4226-8da5-cd3b8d5645db")
+		)
+		(pin "2"
+			(uuid "7b390137-c293-4369-ac58-7bdb83a622c8")
+		)
+		(pin "4"
+			(uuid "4ca4f495-1de1-4bde-8500-0f7871a63511")
+		)
+		(pin "7"
+			(uuid "b14c38e3-878c-487a-94fc-d41a8de87b83")
+		)
+		(pin "8"
+			(uuid "17359bce-b7ad-407c-b554-79ed2e85aec9")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e0e7668-f2d9-40c8-b8d7-3bc1303688e3")
+		(property "Reference" "#PWR019"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c65aa23-7544-4041-963a-76852c8e9d2f")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 229.87 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f15506c-da3d-44a9-8a61-754bce724e63")
+		(property "Reference" "X7"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "17 m"
+			(at 229.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 229.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a505fe0f-b757-432b-b8ed-bd9f1bbb3647")
+		)
+		(pin "6"
+			(uuid "6c0d1977-8868-47ca-bbb4-5da10a578615")
+		)
+		(pin "5"
+			(uuid "d549e492-34d8-42a5-8c7b-8e13886f8fc6")
+		)
+		(pin "1"
+			(uuid "58e3ccaf-af80-4c26-8067-6be6d98b107d")
+		)
+		(pin "2"
+			(uuid "deb18051-3919-4bb2-a607-3b7d8b0995ed")
+		)
+		(pin "4"
+			(uuid "dd18a732-ab76-4d9d-9e9b-5e5fa51dbe74")
+		)
+		(pin "7"
+			(uuid "34a5c11f-074b-41f0-a6fb-cef69d23ac7e")
+		)
+		(pin "8"
+			(uuid "9f2c1d71-e353-4f15-b393-d23af586b668")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "739a890c-7c10-4c49-aef6-51d3e677d7ee")
+		(property "Reference" "#PWR020"
+			(at 227.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd678047-56b8-4999-8a73-5d06c3ac37c8")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 49.53 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78012303-3546-4a79-887d-8c3d5a5e19ef")
+		(property "Reference" "X2"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15 m"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 44.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 49.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1fe9404-daf4-451f-a367-ffad3ad074dd")
+		)
+		(pin "6"
+			(uuid "a47ffba5-fc39-4031-81d0-c6bf8a8f75b3")
+		)
+		(pin "5"
+			(uuid "c563672a-9cbd-4c38-abc4-f86265cb2631")
+		)
+		(pin "1"
+			(uuid "92c5fa2a-70d3-42b0-92f6-9c6e6e594b95")
+		)
+		(pin "2"
+			(uuid "3a65c1fe-4cb4-4f0f-aa97-4c7898c853b1")
+		)
+		(pin "4"
+			(uuid "107f47b4-ea4b-4502-b75b-a58a8d240d02")
+		)
+		(pin "7"
+			(uuid "13cd6186-9577-4da1-ac01-0e4eb7d40fca")
+		)
+		(pin "8"
+			(uuid "6b65513d-4f15-42d4-b230-9195c756c15c")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79775599-d8ee-439b-ac61-ae6422edf945")
+		(property "Reference" "#PWR012"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf6a3e5c-a941-4aee-bd50-f0293a969d97")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 132.08 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7edeae13-044e-4c80-858d-1a5adcab7c69")
+		(property "Reference" "D4"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70ed41a2-abc0-47c0-a2f9-c1c87fef8623")
+		)
+		(pin "2"
+			(uuid "86ae0616-8bcf-4850-a46b-43af828a43de")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 77.47 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "800eebe7-7eb0-436d-b675-e597abb57dd6")
+		(property "Reference" "D2"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f06a84a5-e614-4ccd-968c-849c9376162e")
+		)
+		(pin "2"
+			(uuid "d913224a-e43a-4a3f-b43c-fba334214e8d")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8666c4e9-4446-486c-a7f3-0b425863d59b")
+		(property "Reference" "#PWR030"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee39fe5-4ec0-43ec-9b76-e9d05ec379f4")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99310339-f9c7-4c5b-9008-a53bac17aeb5")
+		(property "Reference" "#PWR028"
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47ea4440-5161-42d7-9c5e-13fa42dfea7c")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b7a353f-c6c3-4572-976f-00eb65515007")
+		(property "Reference" "#PWR029"
+			(at 57.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b263caa5-d5b4-4c13-be46-5c503123272e")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f09f42a-6c66-46ba-836b-72fa7a849b92")
+		(property "Reference" "#PWR035"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33faec06-4a04-4032-8713-c425dfad66ca")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0e78499-55eb-4409-8fb5-727b19b99678")
+		(property "Reference" "#PWR031"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cda9de2b-a026-411f-b419-4d3a0008b7e7")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a43b80f1-09e9-4bc8-a199-9c68ccdf674b")
+		(property "Reference" "#PWR033"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56681a2e-3a27-4f34-a1d0-d9556de54229")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a53a1afb-c126-4aef-a7a1-18daac95ca05")
+		(property "Reference" "#PWR025"
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea0cb52-289d-4a1b-9127-cfb37b9f2891")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 104.14 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dd92f5-26ae-472d-839a-fa2cb35473f2")
+		(property "Reference" "X4"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12 m"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e3a20c21-aa00-4a74-9971-249c90778f6b")
+		)
+		(pin "6"
+			(uuid "7e857bce-ca97-46e1-bc80-a68d0b2d4463")
+		)
+		(pin "5"
+			(uuid "420385f0-3147-4c6b-bcba-7991499560ff")
+		)
+		(pin "1"
+			(uuid "5495d018-85b1-4ec1-a565-c2c9fa44e9ca")
+		)
+		(pin "2"
+			(uuid "b7ffc3b0-c9a9-4567-a400-d480db42456f")
+		)
+		(pin "4"
+			(uuid "573ff8c5-7615-4abb-b834-153fe26eb635")
+		)
+		(pin "7"
+			(uuid "2fffffb4-b0ea-4d83-8d3b-acc918a01808")
+		)
+		(pin "8"
+			(uuid "3beb230e-8502-43fe-bf02-d80e042d7e2e")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 163.83 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9fd6ac0-acca-48a0-9fe1-82f3ed4c25a8")
+		(property "Reference" "K7"
+			(at 147.32 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 147.32 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4d4517e8-7d71-4ef0-b0ca-d0789b13b0f8")
+		)
+		(pin "4"
+			(uuid "b8b1a1b1-ec04-4e7c-8199-0108ed61acc1")
+		)
+		(pin "6"
+			(uuid "62f44637-7bb8-4c51-8b45-cf13e38544fd")
+		)
+		(pin "8"
+			(uuid "e6376a9e-077d-40c6-8b20-e741233e88c0")
+		)
+		(pin "7"
+			(uuid "9569fcc2-0b33-4c29-99e8-fb60c7d64155")
+		)
+		(pin "3"
+			(uuid "e5258b9a-914a-43f6-8ee9-ba7e3baf1db2")
+		)
+		(pin "1"
+			(uuid "23589438-e48f-4e8f-a0df-df2f20974c0b")
+		)
+		(pin "2"
+			(uuid "2a3c3b34-0338-4be8-b1cf-f344cd625d76")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 77.47 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c62dbecd-5471-4372-948b-f7a2a4b4a892")
+		(property "Reference" "D3"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97fca654-6e8a-4214-8f9a-618857224263")
+		)
+		(pin "2"
+			(uuid "002acbc8-e95d-4df8-80d3-04049f6dfe4e")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 104.14 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c939727c-93d6-4cf0-a15e-f213f9cb3417")
+		(property "Reference" "X3"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30 m"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d4a7738-42ea-4c1b-a5df-8383009f9371")
+		)
+		(pin "6"
+			(uuid "7947c350-de75-4a7d-95c3-fe29536db6bc")
+		)
+		(pin "5"
+			(uuid "e7a313ff-789c-4d59-b942-46713a7a2287")
+		)
+		(pin "1"
+			(uuid "9f4093e3-c566-4ef2-aeba-dd20e79ded7b")
+		)
+		(pin "2"
+			(uuid "2d786447-8c8a-449c-a134-49c76cbadfeb")
+		)
+		(pin "4"
+			(uuid "0318d1ea-1f17-4da0-b402-a1e2345b2f42")
+		)
+		(pin "7"
+			(uuid "6f40eb53-4082-45ed-bb14-c34126f787fb")
+		)
+		(pin "8"
+			(uuid "891f979d-39dc-43e7-9616-f27211e7bcdd")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 54.61 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b689c7-e165-40af-b46d-afad5721f7aa")
+		(property "Reference" "K3"
+			(at 38.1 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 38.1 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6K-2P"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "dbdba4a4-78b1-4349-a4d2-e79eeca83f50")
+		)
+		(pin "4"
+			(uuid "9b76ac9c-e020-41bf-b248-1a14e46d7fe3")
+		)
+		(pin "6"
+			(uuid "f4021227-83a3-4ad8-8398-02b5d226cef1")
+		)
+		(pin "8"
+			(uuid "5d48a374-e530-47d0-87c1-e90bc272980b")
+		)
+		(pin "7"
+			(uuid "028edb19-2b7e-4498-8bce-c80148cf0870")
+		)
+		(pin "3"
+			(uuid "5e3f1643-ceda-4301-8ad5-258cd99ab631")
+		)
+		(pin "1"
+			(uuid "946a158a-806b-4c42-a8e9-0ebe040798b6")
+		)
+		(pin "2"
+			(uuid "38610528-52f1-4e46-9b1c-4b0e8e667603")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd4e738b-ea14-4d68-b7fd-23ec0ac48d54")
+		(property "Reference" "#PWR010"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad202858-9de5-4dcc-bbb9-ac4045f07dbd")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e66eb1a9-c8e8-4beb-ba1d-0ebf2a25f5df")
+		(property "Reference" "#PWR018"
+			(at 245.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a99d739-ad9b-4cb3-b508-f0803addc57d")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 257.81 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb7335d-418b-498e-80c6-4a781f940028")
+		(property "Reference" "D8"
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a88a1af-f175-4a2d-a29f-50bd50468cfe")
+		)
+		(pin "2"
+			(uuid "d7516e9d-9223-4d2f-8fe3-55d443822cef")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico-sdx:Filter_Module")
+		(at 158.75 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5f6852-31ac-4933-9108-d572a4a5377e")
+		(property "Reference" "X5"
+			(at 158.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20 m"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico-sdx:Filter Module"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qrp-labs.com/bpfkit.html"
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Band Pass Filter kit"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9158bc86-50e9-4312-be0b-1aff82d35654")
+		)
+		(pin "6"
+			(uuid "cbcab791-3d17-4e90-bd52-e0a0efcadb4b")
+		)
+		(pin "5"
+			(uuid "75448962-5043-4501-9a95-a2cc909e67b8")
+		)
+		(pin "1"
+			(uuid "c71cc23c-bd60-4b65-a7af-a2700dd1a472")
+		)
+		(pin "2"
+			(uuid "fbe260d9-69f2-457a-b8d5-b940a3050eea")
+		)
+		(pin "4"
+			(uuid "a0eca55a-4bc9-4819-9706-f8069bbed6df")
+		)
+		(pin "7"
+			(uuid "e4731d18-9089-40ef-846d-d8f2d3d9eeb7")
+		)
+		(pin "8"
+			(uuid "656cd5b8-3b44-42f1-ac3f-240b8d03a835")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "X5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2856e69-b439-4563-a2ac-195901121485")
+		(property "Reference" "#PWR027"
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "132ac3bc-7a35-4955-9b56-2734a1ff9cd5")
+		)
+		(instances
+			(project "bandpass"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7d06577-ec18-4469-b679-77d1ae8e232a")
+		(property "Reference" "#PWR014"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a332fac3-c55f-423c-b013-66480eb65d12")
+		)
+		(instances
+			(project "pico-sdx"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8/2d79485e-15a9-42ba-aa65-dc404a4a3a56"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
