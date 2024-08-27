@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pico-sdx")(type "KiCad")(uri "${KIPRJMOD}/controller.pretty")(options "")(descr ""))
+  (lib (name "Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/Module_RaspberryPi_Pico.pretty")(options "")(descr ""))
+  (lib (name "PA")(type "KiCad")(uri "${KIPRJMOD}/PA.pretty")(options "")(descr ""))
+)
