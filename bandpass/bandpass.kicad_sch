@@ -1566,7 +1566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
 			(at 107.95 73.66 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
 			(at 29.21 73.66 0)
 			(effects
 				(font
