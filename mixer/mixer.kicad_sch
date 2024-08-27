@@ -5,6 +5,166 @@
 	(uuid "baafbbfa-2a96-4840-9dde-bc29ad2a66a8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
@@ -819,7 +979,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117CD-3.3"
+		(symbol "Regulator_Linear:LT1117-3.3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -834,7 +994,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117CD-3.3"
+			(property "Value" "LT1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -843,8 +1003,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -852,8 +1012,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -861,7 +1021,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, TO-252"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223/TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -879,7 +1039,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?252*TabPin2*"
+			(property "ki_fp_filters" "SOT?223* TO?263*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -888,7 +1048,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117CD-3.3_0_1"
+			(symbol "LT1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -901,7 +1061,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117CD-3.3_1_1"
+			(symbol "LT1117-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -958,7 +1118,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:uA7805"
+		(symbol "Regulator_Linear:LT1117-5.0"
 			(pin_names
 				(offset 0.254)
 			)
@@ -973,7 +1133,7 @@
 					)
 				)
 			)
-			(property "Value" "uA7805"
+			(property "Value" "LT1117-5.0"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -983,26 +1143,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ua78.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1011,7 +1151,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1020,7 +1160,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?263* TO?220*"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223/TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1029,10 +1169,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "uA7805_0_1"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT1117-5.0_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1042,11 +1200,11 @@
 					)
 				)
 			)
-			(symbol "uA7805_1_1"
+			(symbol "LT1117-5.0_1_1"
 				(pin power_in line
-					(at -7.62 0 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "IN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1061,10 +1219,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "GND"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1079,10 +1237,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3185,7 +3343,7 @@
 	)
 	(global_label "TX_Q"
 		(shape output)
-		(at 43.18 134.62 180)
+		(at 43.18 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3195,7 +3353,7 @@
 		)
 		(uuid "4e6675e9-6422-4be2-acf6-f92bcda0fa0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.7196 134.62 0)
+			(at 35.7196 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3365,7 @@
 	)
 	(global_label "RX_Q"
 		(shape input)
-		(at 43.18 129.54 180)
+		(at 43.18 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3217,7 +3375,7 @@
 		)
 		(uuid "4f92c526-7b1e-4cd1-9139-b5c94703ae41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4172 129.54 0)
+			(at 35.4172 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3475,7 @@
 	)
 	(global_label "RX_LO"
 		(shape output)
-		(at 157.48 125.73 0)
+		(at 157.48 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3327,7 +3485,7 @@
 		)
 		(uuid "826d948b-194e-4bf8-a758-a9cfef915dcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.2709 125.73 0)
+			(at 166.2709 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3497,7 @@
 	)
 	(global_label "RX_I"
 		(shape input)
-		(at 43.18 127 180)
+		(at 43.18 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3349,7 +3507,7 @@
 		)
 		(uuid "9b4e1fea-2346-426b-a489-19c066e7afaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.1429 127 0)
+			(at 36.1429 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3563,7 @@
 	)
 	(global_label "TX_LO"
 		(shape output)
-		(at 157.48 130.81 0)
+		(at 157.48 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3415,7 +3573,7 @@
 		)
 		(uuid "b9734afe-7228-4be0-bb90-7378f7c35877")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9685 130.81 0)
+			(at 165.9685 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3585,7 @@
 	)
 	(global_label "TX_I"
 		(shape output)
-		(at 43.18 132.08 180)
+		(at 43.18 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3437,7 +3595,7 @@
 		)
 		(uuid "c75462ad-c722-4d40-9873-13b4c696c640")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.4453 132.08 0)
+			(at 36.4453 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,77 +3908,6 @@
 			(project "pico-sdx"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117CD-3.3")
-		(at 228.6 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e28fd4-e65d-4fea-a232-3af6fd459024")
-		(property "Reference" "U17"
-			(at 228.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLE4284 DV33"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, TO-252"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6fc8a294-89e7-47a2-9b02-70b93178c4bb")
-		)
-		(pin "1"
-			(uuid "e5ee703e-c75c-40a4-b106-f74f3bbaba68")
-		)
-		(pin "2"
-			(uuid "1a3382ac-809e-489b-9f4c-0a1f7ccf6932")
-		)
-		(instances
-			(project "pico-sdx"
-				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
-					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -4499,79 +4586,6 @@
 			(project "pico-sdx"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:uA7805")
-		(at 229.87 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61c4ca0a-9fab-4d36-8210-9130dc6db91c")
-		(property "Reference" "U5"
-			(at 229.87 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "uA7805"
-			(at 229.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 230.505 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ua78.pdf"
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263"
-			(at 229.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e744ca5-905d-4dcc-9ebe-29c4df1a99a4")
-		)
-		(pin "2"
-			(uuid "08c663f8-8816-4053-942e-c1839d9a2052")
-		)
-		(pin "3"
-			(uuid "69af1d2e-29de-4d97-a4b6-85f1fc39205f")
-		)
-		(instances
-			(project "pico-sdx"
-				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5617,6 +5631,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LT1117-3.3")
+		(at 228.6 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac039e56-baa6-4fce-9cb0-20334308b5e3")
+		(property "Reference" "U17"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1117-3.3"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223/TO-263"
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45a7ce5b-6fa2-41c1-ae49-a47d739a63b5")
+		)
+		(pin "3"
+			(uuid "9f0fc78c-b61d-4313-9412-fdaf8ec41431")
+		)
+		(pin "2"
+			(uuid "ba89b423-5582-47fa-aba0-264ade4ecf76")
+		)
+		(instances
+			(project ""
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 242.57 88.9 0)
 		(unit 1)
@@ -5744,6 +5829,73 @@
 			(project "pico-sdx"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 10.16 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf554b94-e24b-4a78-a031-090f667100b4")
+		(property "Reference" "#PWR08"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 13.97 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 10.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ac0ab39-bbb0-4f53-8ca2-cfbf23f1d4ed")
+		)
+		(instances
+			(project "mixer"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5886,6 +6038,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 10.16 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3b307b-7d98-439c-b728-0f95a5362b92")
+		(property "Reference" "#PWR07"
+			(at 16.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 10.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d74e182-8899-47c9-b1a3-0d591eca34f7")
+		)
+		(instances
+			(project "mixer"
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 154.94 40.64 180)
 		(unit 1)
@@ -5893,7 +6112,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0b4c407-a695-4aaf-ba08-74da6f57389f")
 		(property "Reference" "J6"
 			(at 162.56 38.735 0)
@@ -5953,6 +6171,74 @@
 			(project "pico-sdx"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 5.08 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc14ee7b-9ec6-4852-afc4-327a1aaeaca9")
+		(property "Reference" "J1"
+			(at 5.715 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 5.715 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_VH_S2P-VH_1x02_P3.96mm_Horizontal"
+			(at 5.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 5.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44eca2b8-7c82-4367-bb37-fa3b662c3d46")
+		)
+		(pin "2"
+			(uuid "966c75d3-bc28-4ccc-9089-bbb95292a674")
+		)
+		(instances
+			(project ""
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6439,6 +6725,77 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Regulator_Linear:LT1117-5.0")
+		(at 229.87 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f757c054-47d0-47fa-9efd-d3ed4be784f4")
+		(property "Reference" "U5"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1117-5.0"
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223/TO-263"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1ba1702-4bf2-4c61-9638-62e753527dd7")
+		)
+		(pin "2"
+			(uuid "c1394780-c2af-4473-885b-21f118cfaf20")
+		)
+		(pin "1"
+			(uuid "3312a392-236a-4b8b-94c3-295696dde0cb")
+		)
+		(instances
+			(project ""
+				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 101.6 71.12)
 		(size 25.4 7.62)
@@ -6510,7 +6867,7 @@
 			(uuid "2d851676-2519-4267-af42-d2f5f9c9e560")
 		)
 		(instances
-			(project "pico-sdx"
+			(project "mixer"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(page "3")
 				)
@@ -6568,7 +6925,7 @@
 			(uuid "4774b30d-abd0-4298-bb0c-fedc289915c2")
 		)
 		(instances
-			(project "pico-sdx"
+			(project "mixer"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(page "4")
 				)
@@ -6646,7 +7003,7 @@
 			(uuid "f14c03c2-2b84-4ac5-bc6b-117fecc698f9")
 		)
 		(instances
-			(project "pico-sdx"
+			(project "mixer"
 				(path "/baafbbfa-2a96-4840-9dde-bc29ad2a66a8"
 					(page "2")
 				)
