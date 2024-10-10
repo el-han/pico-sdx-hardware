@@ -15914,7 +15914,7 @@
 		(descr "https://www.molex.com/webdocs/datasheets/pdf/en-us/0732512200_RF_COAX_CONNECTORS.pdf")
 		(tags "SMA THT Female Jack Horizontal")
 		(property "Reference" "J5"
-			(at -4.9 0 360)
+			(at -4.9 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "defbd89d-61a5-4a5d-b181-1d23f71dda97")
@@ -23897,7 +23897,7 @@
 		(descr "https://www.molex.com/webdocs/datasheets/pdf/en-us/0732512200_RF_COAX_CONNECTORS.pdf")
 		(tags "SMA THT Female Jack Horizontal")
 		(property "Reference" "J4"
-			(at -4.9 0 360)
+			(at -4.9 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "353d2f0d-a0ca-4f90-b19f-71cc3b68fb6c")

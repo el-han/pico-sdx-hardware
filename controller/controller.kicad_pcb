@@ -694,6 +694,7 @@
 		(property "Reference" "U4"
 			(at -1.5 -6.71 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e260aedc-a33d-4102-97c4-72693df9749e")
 			(effects
 				(font
@@ -972,6 +973,7 @@
 		(property "Reference" "P1"
 			(at -0.762 -8.636 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ba6cfc1c-2521-40a2-ac5d-7edcdf35f06a")
 			(effects
 				(font
@@ -1708,6 +1710,7 @@
 		(property "Reference" "J3"
 			(at 3.5 -2.95 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8864170c-eb6c-434b-b995-93ee48c5d66c")
 			(effects
 				(font
@@ -1928,6 +1931,7 @@
 		(property "Reference" "P2"
 			(at -0.762 -8.636 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7d658510-9b28-4691-b298-5157e6ebb546")
 			(effects
 				(font
@@ -2666,6 +2670,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "554cf623-eff4-48be-a23e-0eb220beb6b1")
 			(effects
 				(font
@@ -3001,6 +3006,7 @@
 		(property "Reference" "P3"
 			(at -0.762 -8.636 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a0c88235-f3aa-4b8b-ae73-641751063b0e")
 			(effects
 				(font
@@ -3739,6 +3745,7 @@
 		(property "Reference" "U3"
 			(at 31.75 -36.83 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "df439c91-ee42-4d61-92bd-f868484d58a3")
 			(effects
 				(font
@@ -6322,7 +6329,7 @@
 			(xy 15.735 54.686) (xy 15.735 29.686)
 		)
 		(height -8)
-		(gr_text "984.2520 mils"
+		(gr_text "25.0000 mm"
 			(at 5.935 42.186 90)
 			(layer "Dwgs.User")
 			(uuid "23c4e801-f9dc-4d11-9eb3-db18ff02a7ed")
@@ -6355,7 +6362,7 @@
 			(xy 15.735 79.686) (xy 15.735 54.686)
 		)
 		(height -8)
-		(gr_text "984.2520 mils"
+		(gr_text "25.0000 mm"
 			(at 5.935 67.186 90)
 			(layer "Dwgs.User")
 			(uuid "7003e2fc-f80a-45f7-b1c1-9db10fb8550e")
@@ -6388,7 +6395,7 @@
 			(xy 15.735 29.686) (xy 15.735 17.186)
 		)
 		(height -8)
-		(gr_text "492.1260 mils"
+		(gr_text "12.5000 mm"
 			(at 5.935 23.436 90)
 			(layer "Dwgs.User")
 			(uuid "82817fa6-d375-423c-93ce-d2aefd6bc6bd")
@@ -6421,7 +6428,7 @@
 			(xy 15.735 104.686) (xy 15.735 92.186)
 		)
 		(height -8)
-		(gr_text "492.1260 mils"
+		(gr_text "12.5000 mm"
 			(at 5.935 98.436 90)
 			(layer "Dwgs.User")
 			(uuid "8e989325-be72-45cc-86e1-b9a23824b08c")
@@ -6454,7 +6461,7 @@
 			(xy 15.735 117.186) (xy 15.735 104.686)
 		)
 		(height -16.5)
-		(gr_text "492.1260 mils"
+		(gr_text "12.5000 mm"
 			(at -2.565 110.936 90)
 			(layer "Dwgs.User")
 			(uuid "c8ef4816-8948-4848-a6c5-e8427c303574")
@@ -6487,7 +6494,7 @@
 			(xy 15.735 104.686) (xy 15.735 79.686)
 		)
 		(height -16.5)
-		(gr_text "984.2520 mils"
+		(gr_text "25.0000 mm"
 			(at -2.565 92.186 90)
 			(layer "Dwgs.User")
 			(uuid "d6f0edf3-77a4-494c-9e57-856289c012c6")
