@@ -2212,196 +2212,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:IRLML6401"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4174,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 392.43) (xy 62.23 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17039c37-0da4-45be-a9f1-75e2c52b6889")
+	)
+	(wire
+		(pts
 			(xy 76.2 377.19) (xy 62.23 377.19)
 		)
 		(stroke
@@ -4841,6 +4661,16 @@
 			(type default)
 		)
 		(uuid "dba76404-cbf8-4ddb-9eb5-af05eb91624f")
+	)
+	(wire
+		(pts
+			(xy 62.23 392.43) (xy 62.23 388.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0aafed1-f4e8-462e-91ae-7ee738f2ccf1")
 	)
 	(wire
 		(pts
@@ -6595,7 +6425,7 @@
 	)
 	(global_label "TX~{RX}"
 		(shape input)
-		(at 46.99 393.7 180)
+		(at 54.61 392.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6605,7 +6435,7 @@
 		)
 		(uuid "8ece5767-7e9d-4a7d-b463-ad6423ca6ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3482 393.7 0)
+			(at 46.9682 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,73 +10780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 398.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "840e1f54-56cc-48d9-aa23-94dd35ee177a")
-		(property "Reference" "#PWR029"
-			(at 62.23 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f554148-7b3d-42c9-aa71-562119f67a3d")
-		)
-		(instances
-			(project "pa"
-				(path "/f9dbb021-4fea-4b33-8c2d-2c1606f600db"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 68.58 54.61 180)
 		(unit 1)
@@ -11217,74 +10980,6 @@
 			(project "pa"
 				(path "/f9dbb021-4fea-4b33-8c2d-2c1606f600db"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 393.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "922062f0-769f-4cfd-b578-d1948880ff9c")
-		(property "Reference" "R20"
-			(at 50.8 387.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8 kR"
-			(at 50.8 389.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 50.8 395.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07c375bb-d9ad-4571-8c3e-a4ebec524cb4")
-		)
-		(pin "2"
-			(uuid "b70d942e-dcf4-4a97-b67e-5db6ba756b90")
-		)
-		(instances
-			(project "pa"
-				(path "/f9dbb021-4fea-4b33-8c2d-2c1606f600db"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12727,82 +12422,6 @@
 			(project "pa"
 				(path "/f9dbb021-4fea-4b33-8c2d-2c1606f600db"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 59.69 393.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c52dcdaf-4c61-4240-a093-443c2e1be06a")
-		(property "Reference" "Q4"
-			(at 64.77 392.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 64.77 394.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 64.77 395.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 59.69 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 59.69 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "436d7de7-d1f3-4f52-9109-c87017278764")
-		)
-		(pin "1"
-			(uuid "dbf6daa1-8764-4cfe-ac14-895dad1e3f02")
-		)
-		(pin "3"
-			(uuid "60062d75-9233-4ba1-8c46-fb62352b1d6c")
-		)
-		(instances
-			(project ""
-				(path "/f9dbb021-4fea-4b33-8c2d-2c1606f600db"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
