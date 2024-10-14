@@ -419,12 +419,12 @@
 				)
 			)
 		)
-		(symbol "RF_Amplifier:HMC589A"
+		(symbol "pico-sdx:HMC589A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 7.62 0)
+			(property "Reference" "U13"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -432,7 +432,7 @@
 				)
 			)
 			(property "Value" "HMC589A"
-				(at 2.54 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Amplifier:HMC589A")
+		(lib_id "pico-sdx:HMC589A")
 		(at 124.46 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
