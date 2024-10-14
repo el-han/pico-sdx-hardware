@@ -2,7 +2,7 @@ PROJECT := controller
 
 .PHONY: erc
 erc:
-	kicad-cli sch erc --exit-code-violations --severity-error $(PROJECT).kicad_sch
+	kicad-cli sch erc --exit-code-violations $(PROJECT).kicad_sch
 
 .PHONY: drc
 drc:
